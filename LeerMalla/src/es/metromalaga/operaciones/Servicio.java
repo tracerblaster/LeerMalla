@@ -1,3 +1,6 @@
+package es.metromalaga.operaciones;
+import java.util.AbstractList;
+import java.util.ArrayList;
 
 public class Servicio {
 	
@@ -5,4 +8,5 @@ public class Servicio {
 	int totalViajes;
 	boolean viajeDeMaterial;
 
+	AbstractList<Viaje> listaViajes = new ArrayList<Viaje>();
 }

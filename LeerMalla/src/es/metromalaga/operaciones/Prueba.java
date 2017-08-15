@@ -1,3 +1,5 @@
+package es.metromalaga.operaciones;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -14,6 +16,11 @@ public class Prueba {
     //private static String xmlSource = "http://feeds.bbci.co.uk/news/technology/rss.xml?edition=int";
     
     public static void main(String[] args) throws JDOMException, IOException {
+    	
+    	ProcesarMalla pm = new ProcesarMalla();
+    }
+    
+    /*    public static void main(String[] args) throws JDOMException, IOException {
         // the SAXBuilder is the easiest way to create the JDOM2 objects.
         SAXBuilder jdomBuilder = new SAXBuilder();
   
@@ -67,4 +74,4 @@ public class Prueba {
         
         
     }
-}
+*/}
